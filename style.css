@@ -1,47 +1,51 @@
-#slider {
-    overflow: hidden;
-}
-
-#slider figure {
+.header-container {
     position: relative;
-    width: 500%;
+    height: 400px;
+    background-image: url(/header-images/header-banner-2.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%,-50%);
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.header-title h1 {
+    font-size: 70px;
+    letter-spacing: 0.1em;
+    border: 10px solid #ffffff;
+    display: inline-block;
     margin: 0;
-    left: 0;
-    animation: 20s slider infinite;
+    pad: 6px 14px;
+    text-shadow: 0 0 10px #000000;
 }
 
-#slider figure img {
-    width: 20%;
-    float: left;
-    height: 350px;
+.header-slogan {
+    display: inline-block;
+    margin-top: 2%;
+    font-size: 40px;
+    text-shadow: 0 0 10px #000000;
 }
 
-@keyframes slider {
-    0% {
-        left: 0;
+@media only screen and (max-width: 580px) {
+    .header-container {
+        margin: 0 auto;
+        overflow: hidden;        
     }
-    20% {
-        left: 0;
+    .header-title {
+        left: 29%;
     }
-    25% {
-        left: -100%;
+    .header-title h1 {
+        font-size: 50px;
     }
-    45% {
-        left: -100%;
-    }
-    50% {
-        left: -200%;
-    }
-    70% {
-        left: -200%;
-    }
-    75% {
-        left: -300%;
-    }
-    95% {
-        left: -300%;
-    }
-    100% {
-        left: -400%;
+    .header-slogan {
+        font-size: 30px;
     }
 }
