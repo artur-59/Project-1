@@ -1,7 +1,7 @@
 .header-container {
     position: relative;
     height: 400px;
-    background-image: url(/header-images/header-banner-2.jpg);
+    background-image: url(/header-images/header-banner.png);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -11,7 +11,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-25%,-50%);
+    transform: translate(-50%,-50%);
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
@@ -38,9 +38,6 @@
     .header-container {
         margin: 0 auto;
         overflow: hidden;        
-    }
-    .header-title {
-        left: 29%;
     }
     .header-title h1 {
         font-size: 50px;
