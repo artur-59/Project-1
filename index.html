@@ -11,16 +11,61 @@
     <meta name="keywords" content="Carpentry, Painting, Plumbing, Home repairs, Repair skills, Fixing stuff 
     around your house,">
     <title>Fix me please? Feel free to type in any name that you like!</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<nav class="navigation-bar-container">
-
+<nav class="nav-bar-container">
+    <input id="nav-bar-toggle" type="checkbox">
+    <div class="nav-logo-container">
+        <li><a href="index.html"><img src="Fix-me-please-logo2.png" alt="Fix Me Please Logo"></a></li>
+    </div>
+    <ul class="nav-links-container">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#how-it-works">How it Works</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#join-us">Join Us</a></li>
+    </ul>
+    <label for="nav-bar-toggle" class="nav-bar-icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </label>
 </nav>
-<section class="header-img">
-
+<section class="header-container">
+    <div class="header-title">
+        <h1>Fix Me Please!</h1>
+        <span class="header-slogan">Here you can find the right person for the right job!</span>
+    </div>
 </section>
 <section class="how-it-works-container">
+<div class="how-it-works-row">
+    <h1 class="how-it-works-h1"> How it works...</h1>
+    <ul class="how-it-works-block">
+        <li class="blocks">
+            <img class="block-img" src="img/img1.png" >
+            <p> Need to fix something in your house</p>
+        </li>
+        <li class="blocks">
+            <img class="block-img" src="img/img2.png" > 
+            <p> Search among our service providers, choose the best </p>
+        </li>
+        <li class="blocks">
+             <img class="block-img" src="img/img3.png" > 
+            <p> Agree an appointment and enjoy your service</p>
+        </li>
+    </ul>
+</div>
+
+
+
+
+
+
+
+
 
 </section>
 <section class="services-container">
@@ -50,7 +95,7 @@
     </div>
 </section>
 <section class="testimonials-container">
-
+      
 </section>
 <section class="about-us-container">
 
@@ -59,7 +104,36 @@
 
 </section>
 <footer class="footer-container">
-
+    <div class="footer-links-container">
+            <div class="footer-links-1">
+              <h6>Need help?</h6>
+              <ul class="footer-links">
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Certifications</a></li>
+              </ul>
+            </div>
+            <div class="footer-links-2">
+              <h6>Legal</h6>
+              <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+              </ul>
+            </div>
+    </div>
+            <div class="footer-social-media">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+              </ul>
+            </div>
+            <hr>
+            <div class="footer-copyright">
+                <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by Fix Me Please.
+                </p>
+              </div>
 </footer>
     <script src="script.js"></script>
 </body>
