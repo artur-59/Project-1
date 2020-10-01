@@ -1,0 +1,51 @@
+body{
+    font-family: Montserrat,Lato,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-style: normal;
+    
+  
+}
+
+.how-it-works-row {
+    display: block;
+    background-color: azure;
+   
+
+}
+.how-it-works-h1 {
+    font-weight: 700;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 120%;
+  
+
+}
+
+.how-it-works-block{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+
+.block1 {
+    padding: 10px;
+
+}
+.block-img {
+    display: block;
+    width: 50px;
+    margin: auto;
+    
+}
+.block2 {
+    padding: 10px;
+}
+.block3 {
+    
+    padding: 10px;
+}
+
