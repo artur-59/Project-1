@@ -1,5 +1,6 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Montserrat,Lato,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-style: normal;
 }
 
 .nav-bar-container {
@@ -115,6 +116,37 @@ body {
     margin-top: 2%;
     font-size: 40px;
     text-shadow: 0 0 10px #000000;
+}
+
+.how-it-works-row {
+    display: block;
+}
+
+.how-it-works-h1 {
+    font-weight: 700;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 120%;
+}
+
+.how-it-works-block{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+
+.blocks {
+    padding: 10px;
+}
+
+.block-img {
+    display: block;
+    width: 55px;
+    margin: auto; 
 }
 
 .footer-container {
@@ -278,6 +310,34 @@ body {
         font-size: 30px;
     }
 }
+
+@media screen and (max-width: 510px) {
+    body {
+      display: flex;
+    }
+    .how-it-works-block{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 0px;
+    }
+    .blocks {
+        padding-left: 10px;
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .block-img {
+        padding: 10px;
+        margin: 0cm;
+        width: 55px;
+        padding-right: 20px;
+    }
+   .p{
+       text-align: center;
+   }
+  }
 
 @media (max-width:440px) {
     .footer-container,.social-icons {
