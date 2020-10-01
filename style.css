@@ -20,15 +20,12 @@
       padding-left: 10px ;
       padding-right: 10px ;
       opacity: 50%;
-     
   }
+
   .tittle {
       position: absolute;
       top: 50%;
-      left: 44%;
-      z-index: 10;
-      text-align: center;
-     
+      left: 47%;
   }
   
   
@@ -57,18 +54,69 @@
     opacity: 100%;   
     
   }
-  
-  /* .tittle:hover{
-      transform: scale(1.3); 
-      color: rgb(0, 0, 0,);
-  } */
- 
-  @media (max-width: 500px) {
- .specific-block {
-    height: 180px; 
- }
- .tittle{
-    left: 40%; 
- }
-   }
-//
+
+  @media (max-width: 1024px) {
+      .specific-block {
+          opacity: 100%;
+      }
+      .tittle {
+        position: absolute;
+        top: 50%;
+        left: 44%;
+    }
+  }
+
+  @media (max-width: 930px) {
+    .specific-block {
+        opacity: 100%;
+    }
+    .tittle {
+        position: absolute;
+        top: 50%;
+        left: 43.5%;
+    }
+}
+
+@media (max-width: 725px) {
+    .specific-block {
+        opacity: 100%;
+    }
+    .tittle {
+        position: absolute;
+        top: 50%;
+        left: 42%;
+    }
+}
+
+@media (max-width: 570px) {
+    .specific-block {
+        opacity: 100%;
+    }
+    .tittle {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+    }
+}
+
+@media (max-width: 445px) {
+    .specific-block {
+        opacity: 100%;
+    }
+    .tittle {
+        position: absolute;
+        top: 50%;
+        left: 38%;
+    }
+}
+
+@media (max-width: 360px) {
+    .specific-block {
+        opacity: 100%;
+    }
+    .tittle {
+        position: absolute;
+        top: 50%;
+        left: 35%;
+    }
+}
