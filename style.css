@@ -1,0 +1,57 @@
+.service-block {
+
+}
+.specific-block {
+    position: relative;
+    text-align: center;
+    color:black;
+    text-shadow: grey;
+    font-size: 0.7cm;
+    height: 200px;
+    padding: 5px;
+}
+.tittle {
+    position: absolute;
+    top: 50%;
+    left: 44%;
+   
+}
+
+
+.img-plumber{
+    background-image: url("./img/img-plumber.jpg");
+}
+
+.img-painter{
+    background-image: url( "./img/img-painter.jpg");
+}
+
+.img-carpenter{
+    background-image:url( "./img/img-carpenter.jpg") ;
+}
+
+.img-services {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+#hover:hover {
+    opacity: 30%;
+
+}
+.tittle:hover {
+   color: black;
+}
+.middle {
+    transition: .5s ease;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
