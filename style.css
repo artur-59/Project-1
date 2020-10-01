@@ -5,13 +5,20 @@
   }
 
 .testimonials-container {
-    margin-bottom: 30px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(pictures/testemonials\ background\ image.jpeg);
     background-size: cover;
     color: #fff;
     height: 100vh;
     
 
+}
+
+.about-us-container {
+    background-color: #f4f4f4;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+    padding-top: 2%;
 }
 
 h2{
@@ -26,6 +33,45 @@ h2{
     letter-spacing: 1px;
         
     }
+
+p{
+    font-size: 150%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+
+    
+}
+.main-title{
+    font-size: 300%;
+    color:#e67e22;
+    text-align: center;
+
+}
+.title{
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 180%;
+    color:#e67e22;
+
+}
+
+.main-text{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    font-size: 150%;
+    color: #555;
+}
+
+.text{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+    font-size: 120%;
+    color: #555;
+}
     
     blockquote {
         padding: 2%;
