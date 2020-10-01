@@ -8,7 +8,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(pictures/testemonials\ background\ image.jpeg);
     background-size: cover;
     color: #fff;
-    height: 100vh;
+    min-height: 100vh;
     
 
 }
@@ -50,7 +50,7 @@ p{
 
 }
 .title{
-    margin-left: 10%;
+    margin-left: 13%;
     margin-top: 10%;
     font-size: 180%;
     color:#e67e22;
@@ -66,11 +66,16 @@ p{
 }
 
 .text{
-    margin-left: 10%;
+    margin-left: 13%;
     margin-right: 10%;
     margin-top: 6%;
     font-size: 120%;
     color: #555;
+}
+
+.map{
+    margin-top: 10%;
+    margin-left: 5%;
 }
     
     blockquote {
@@ -80,6 +85,7 @@ p{
         position: relative;
         font-size: 110%;
         margin-top: 20px;
+        margin-left: 10%;
     }
     
     blockquote:before {
@@ -102,6 +108,51 @@ p{
         border-radius: 50px;
         margin-right: 10px;
         vertical-align: middle;
+    }
+
+
+    .join-us-container {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(pictures/join\ us.jpg);
+        background-size: cover;
+        color: #fff;
+        height: 100vh;
+    }
+
+
+    .contact-form{
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        width: 100%;
+        padding: 7px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+    }
+    
+    textarea{
+        height: 100px;
+    }
+    
+  
+    
+    
+
+    .formtext{
+        font-size: 140%;
+    }
+
+    .join-us-title{
+        text-align: center;
+        font-size: 140%;
+    }
+    
+    .box{
+        margin-right: 10%;
     }
     
 
