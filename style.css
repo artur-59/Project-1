@@ -150,6 +150,63 @@ body {
     margin: auto; 
 }
 
+.service-container {
+    font:  Arial;
+  }
+  
+  .select-service{
+    font: 23px Arial ;
+    padding-left: 9px;
+    margin: 0 ;
+    padding-bottom: 10px;
+  }
+  
+  .specific-block {
+      position: relative;
+      text-align: center;
+      color:black;
+      text-shadow: grey;
+      font-size: 0.7cm;
+      height: 200px;
+      padding: 5px;
+      padding-left: 10px ;
+      padding-right: 10px ;
+      opacity: 50%;
+  }
+
+  .tittle {
+      position: absolute;
+      top: 50%;
+      left: 47%;
+  }
+  
+  
+  .img-plumber{
+      background-image: url("./img/img-plumber.jpg");
+  }
+  
+  .img-painter{
+      background-image: url( "./img/img-painter.jpg");
+  }
+  
+  .img-carpenter{
+      background-image:url( "./img/img-carpenter.jpg") ;
+  }
+  
+  .img-services {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      transition: .5s ease;
+      backface-visibility: hidden;
+  }
+  
+  .specific-block:hover {
+    opacity: 100%;   
+    
+  }
+      
 .footer-container {
     position: relative;
     width: 100%;
@@ -339,6 +396,70 @@ body {
         padding-right: 20px;
     }
   }
+
+@media (max-width: 1024px) {
+      .specific-block {
+          opacity: 100%;
+      }
+      .tittle {
+        position: absolute;
+        top: 50%;
+        left: 44%;
+    }
+  }
+
+  @media (max-width: 930px) {
+    .specific-block {
+        opacity: 100%;
+    }
+    .tittle {
+        position: absolute;
+        top: 50%;
+        left: 43.5%;
+    }
+}
+
+@media (max-width: 725px) {
+    .specific-block {
+        opacity: 100%;
+    }
+    .tittle {
+        position: absolute;
+        top: 50%;
+        left: 42%;
+    }
+}
+
+@media (max-width: 570px) {
+    .specific-block {
+        opacity: 100%;
+    }
+    .tittle {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+    }
+}
+
+@media (max-width: 445px) {
+    .specific-block {
+        opacity: 100%;
+    }
+    .tittle {
+        position: absolute;
+        top: 50%;
+        left: 38%;
+    }
+}
+
+@media (max-width: 360px) {
+    .specific-block {
+        opacity: 100%;
+    }
+    .tittle {
+        position: absolute;
+        top: 50%;
+        left: 35%;
 
 @media (max-width:440px) {
     .footer-container,.social-icons {
