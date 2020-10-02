@@ -94,7 +94,7 @@ body {
     padding-top: 250px;
     position: relative;
     height: 350px;
-    background-image: url(/header-images/header-banner.png);
+    background-image: url(/header-images/banner.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -112,13 +112,13 @@ body {
 }
 
 .header-title h1 {
+    color: #f99e84;
     font-size: 70px;
     letter-spacing: 0.1em;
-    border: 10px solid #ffffff;
     display: inline-block;
     margin: 0;
     padding: 6px 14px;
-    text-shadow: 0 0 10px #000000;
+    /*text-shadow: 0 0 10px #000000;*/
 }
 
 .header-slogan {
