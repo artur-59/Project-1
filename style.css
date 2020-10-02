@@ -107,8 +107,6 @@ body {
     transform: translate(-50%,-50%);
     text-align: center;
     color: #ffffff;
-    padding-top: 10px;
-}
 
 .header-title h1 {
     color: #ffb23d;
@@ -330,7 +328,7 @@ body {
 .social-icons a.twitter:hover {
   background-color:#00aced
 }
-    
+
 .social-icons a.instagram:hover {
   background-color:#8a3ab9
 }
@@ -470,6 +468,7 @@ body {
         top: 50%;
         left: 43.5%;
     }
+    
 }
 
 @media (max-width: 725px) {
@@ -527,3 +526,4 @@ body {
         margin: 10px 0px;
     }
 }
+
