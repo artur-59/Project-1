@@ -343,11 +343,29 @@ body {
 
 /* ==================NAVIGATION-BAR-QUERIES==========*/
 
+@media screen and (max-width: 1025px) {
+    .nav-bar-container {
+        height: 70px;
+    }
+    .nav-links-container {
+        top: 70px;
+    }
+    .nav-logo-container img {
+        width: 70%;
+    }
+}
+
 @media screen and (max-width: 825px) {
+    .nav-bar-container {
+        height: 50px;
+    }
     .nav-logo-container {
         float: none;
         width: auto;
         justify-content: center;
+    }
+    .nav-logo-container img {
+        width: 60%;
     }
     .nav-links-container {
         float: none;
@@ -355,7 +373,7 @@ body {
         z-index: 9;
         left: 0;
         right: 0;
-        top: 100px;
+        top: 50px;
         bottom: 100%;
         background-color: rgba(0, 0, 0, 0.97);
         flex-direction: column;
