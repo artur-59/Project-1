@@ -107,25 +107,27 @@ body {
     transform: translate(-50%,-50%);
     text-align: center;
     color: #ffffff;
-    text-transform: uppercase;
     padding-top: 10px;
 }
 
 .header-title h1 {
-    color: #f99e84;
+    color: #ffb23d;
     font-size: 70px;
     letter-spacing: 0.1em;
     display: inline-block;
     margin: 0;
     padding: 6px 14px;
-    /*text-shadow: 0 0 10px #000000;*/
+    text-transform: uppercase;
+}
+.header-title-ee {
+    color: #ffb23d;
 }
 
 .header-slogan {
     display: inline-block;
     margin-top: 2%;
     font-size: 40px;
-    text-shadow: 0 0 10px #000000;
+    color:  #6f7175
 }
 
 /* ==================HOW-IT-WORKS==========*/
