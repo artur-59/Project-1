@@ -137,7 +137,8 @@ body {
 }
 
 .how-it-works-container hr {
-    margin: 20px 0px;
+    margin-bottom: 60px;
+    margin-top: 120px;
 }
 
 .how-it-works-row {
@@ -175,36 +176,27 @@ body {
 
 /* ==================SERVICES==========*/
 
-.service-container {
-    font:  Arial;
-  }
-  
-  .select-service{
-    font: 23px Arial ;
-    text-align: center;
-    margin: 0 ;
-    padding-bottom: 30px;
-  }
-  
-  .specific-block {
-      position: relative;
-      text-align: center;
-      color:black;
-      text-shadow: grey;
-      font-size: 0.7cm;
-      height: 200px;
-      padding: 5px;
-      padding-left: 10px ;
-      padding-right: 10px ;
-      opacity: 50%;
-  }
+.services-container {
+    padding-top: 30px;
+}
 
-  .tittle {
-      position: absolute;
-      top: 50%;
-      left: 47%;
-  }
-  
+.services-title {
+    text-align: center;
+    font-size: 27px;
+}
+
+.services-banner {
+    position: relative;
+    text-align: center;
+    color:black;
+    text-shadow: grey;
+    font-size: 0.7cm;
+    height: 200px;
+    padding: 5px;
+    padding-left: 10px ;
+    padding-right: 10px ;
+    opacity: 50%;
+} 
   
   .img-plumber{
       background-image: url("./img/img-plumber.jpg");
