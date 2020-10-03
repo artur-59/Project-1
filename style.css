@@ -344,6 +344,10 @@ body {
     margin-bottom: 1%;
 }
 
+.footer-copyright p {
+    text-align: center;
+}
+
 /* ==================MEDIAQUERIES==========*/
 
 /* ==================NAVIGATION-BAR-QUERIES==========*/
