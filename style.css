@@ -132,7 +132,7 @@ body {
 /* ==================HOW-IT-WORKS==========*/
 
 .how-it-works-container {
-    padding-top: 10px;
+    padding-top: 70px;
     padding-bottom: 20px;
 }
 
@@ -517,17 +517,12 @@ body {
         position: absolute;
         top: 50%;
         left: 35%;
+}
 
-/* ==================FOOTER-QUERIES==========*/
+/* ===========FOOTERQUERIES=======*/
 
-@media (max-width:440px) {
-    .footer-container,.social-icons {
-        text-align: center;
-    }
-    .footer-links-1 {
-        margin: 10px 0px;
-    }
-    .footer-links-2 {
-        margin: 10px 0px;
+@media (max-width: 334px){
+    .footer-links a {
+        display: block;
     }
 }
