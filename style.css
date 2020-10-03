@@ -1,7 +1,12 @@
+
+/*------------------Testemonials--------------------*/
+
 .row {
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    flex-wrap: wrap;
+    
   }
 
 .testimonials-container {
@@ -13,13 +18,160 @@
 
 }
 
+blockquote {
+        
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    font-size: 110%;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: relative;
+    top: -5px;
+    left: -5px;
+}
+
+.customer-testemonial {
+    margin-bottom: 2%;
+    width: 45vw;
+    
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 2%;
+    display: block;
+}
+
+cite img {
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/*------------------About-Us--------------------*/
+
 .about-us-container {
     background-color: #f4f4f4;
     background-size: cover;
     color: #fff;
     height: 100vh;
     padding-top: 2%;
+    
 }
+
+.about-us-main-title{
+    font-size: 300%;
+    color:#e67e22;
+    text-align: center;
+
+}
+
+.about-us-main-text{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    font-size: 150%;
+    color: #555;
+}
+
+.about-us-body{
+   margin-top: 3%; 
+    
+}
+
+.about-us-contacts{
+
+    float: left;
+}
+
+.about-us-title{
+    margin-left: 13%;
+    font-size: 180%;
+    color:#e67e22;
+    margin-bottom: 3%;
+
+}
+
+.about-us-text{
+    margin-left: 13%;
+    margin-right: 10%;
+    margin-bottom: 6%;
+    font-size: 120%;
+    color: #555;
+}
+
+.about-us-map{
+  display: block;  
+}
+
+
+
+/*------------------Jois-Us--------------------*/
+
+
+.join-us-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(pictures/join\ us.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+    
+}
+
+
+.join-us-title{
+    text-align: center;
+    font-size: 140%;
+}
+
+.join-us-contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.join-us-form-data{
+    width: 30%;
+}
+
+.join-us-form-input{
+
+    width: 60%;
+}
+
+
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+
+textarea{
+    height: 100px;
+}
+
+.formtext{
+    font-size: 140%;
+}
+
+
+.services{
+
+ margin-right: 10%;   
+}
+
 
 h2{
     padding-top: 10px;
@@ -43,117 +195,29 @@ p{
 
     
 }
-.main-title{
-    font-size: 300%;
-    color:#e67e22;
-    text-align: center;
 
-}
-.title{
-    margin-left: 13%;
-    margin-top: 10%;
-    font-size: 180%;
-    color:#e67e22;
 
-}
 
-.main-text{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 3%;
-    font-size: 150%;
-    color: #555;
-}
 
-.text{
-    margin-left: 13%;
-    margin-right: 10%;
-    margin-top: 6%;
-    font-size: 120%;
-    color: #555;
-}
-
-.map{
-    margin-top: 10%;
-    margin-left: 5%;
-}
     
-    blockquote {
-        padding: 2%;
-        font-style: italic;
-        line-height: 145%;
-        position: relative;
-        font-size: 110%;
-        margin-top: 20px;
-        margin-left: 10%;
-    }
     
-    blockquote:before {
-        content: "\201C";
-        font-size: 500%;
-        display: block;
-        position: absolute;
-        top: -5px;
-        left: -5px;
-    }
-    
-    cite {
-        font-size: 90%;
-        margin-top: 25px;
-        display: block;
-    }
-    
-    cite img {
-        height: 50px;
-        border-radius: 50px;
-        margin-right: 10px;
-        vertical-align: middle;
-    }
 
 
-    .join-us-container {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(pictures/join\ us.jpg);
-        background-size: cover;
-        color: #fff;
-        height: 100vh;
-    }
+    
 
 
-    .contact-form{
-        width: 60%;
-        margin: 0 auto;
-    }
     
-    input[type=text],
-    input[type=email],
-    select,
-    textarea {
-        width: 100%;
-        padding: 7px;
-        border-radius: 3px;
-        border: 1px solid #ccc;
-    }
     
-    textarea{
-        height: 100px;
-    }
+
     
   
     
     
 
-    .formtext{
-        font-size: 140%;
-    }
+  
 
-    .join-us-title{
-        text-align: center;
-        font-size: 140%;
-    }
-    
-    .box{
-        margin-right: 10%;
-    }
+   
+
 
 
 

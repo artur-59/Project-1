@@ -1,7 +1,14 @@
 /* Big tablet to 1200px (widths smaller taht the 1140px row) */
 @media only screen and (max-width: 1200px) {
     
+    .about-us-container {
+    
+        height: auto;
+    }
 
+    .about-us-map{
+        text-align: center;
+    }
 
 }
 
@@ -9,10 +16,18 @@
 /* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
     
-
-    .row{
-
-        display: block;  
+    .about-us-container {
+    
+        height: auto;
+    }
+    .about-us-map{
+        text-align: center;
+    }
+    
+    .customer-testemonial {
+    
+        width:auto;
+        
     }
 
 
@@ -21,12 +36,25 @@
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
     
+    .row{
+        display: block;
+        
+        
+        
+    }
+    .about-us-container {
+    
+        height: auto;
+        
+        
+    }
 
+    .customer-testemonial {
+    
+        width:auto;
+        
+    }
 
-.row{
-
-    display: block;  
-}
 
 
 }
@@ -35,9 +63,21 @@
 @media only screen and (max-width: 480px) {
 
    
+.row{
+    display: block;
+    
+}
 
-    .row{
-
-        display: block;  
-    }
+.about-us-container {
+    
+    height: auto;
+    
+    
+}
+.customer-testemonial {
+    
+    width:auto;
+    
+}
+   
 }
