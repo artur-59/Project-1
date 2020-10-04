@@ -97,6 +97,8 @@ body {
       text-shadow: 2px 2px 2px #000000;
       height: 300px;
       background-image: url(/carpentry-img/wooden-floor-1853403.png);
+      background-size: cover;
+      background-position: center;
   }
 
   .carpentry-banner {
