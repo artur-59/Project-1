@@ -89,14 +89,16 @@ body {
 }
 
 
-  /* ==================CARPENTRYBANNER==========*/
+  /* ==================PLUMBINGBANNER==========*/
 
   .plumbing-banner {
       padding-top: 50px;
       text-align: center;
       text-shadow: 2px 2px 2px #000000;
       height: 300px;
-      background-image: url(/carpentry-img/wooden-floor-1853403.png);
+      background-image: url(/plumbing-img/tools-1209300.jpg);
+      background-size: cover;
+      background-position: center;
   }
 
   .plumbing-banner {
@@ -123,7 +125,7 @@ body {
       font-weight: 600;
   }
 
-  /* ==================CARPENTRYCARDS==========*/
+  /* ==================PLUMBINGCARDS==========*/
 
     .plumbers-cards {
         display: flex;
@@ -143,7 +145,7 @@ body {
     }
 
     .partner-img-1 {
-        background-image: url(/carpentry-img/tools-498202_640.png);
+        background-image: url(/plumbing-img/pipe-1898766_1920.jpg);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -163,7 +165,7 @@ body {
     }
 
     .partner-img-2 {
-        background-image: url(/carpentry-img/tools-690038_640.png);
+        background-image: url(/plumbing-img/pipe-1821109_1920.jpg);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -183,7 +185,7 @@ body {
     }
 
     .partner-img-3 {
-        background-image: url(/carpentry-img/workshop-984022_640.png);
+        background-image: url(/plumbing-img/tap-1937432_640.jpg);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -203,7 +205,7 @@ body {
     }
 
     .partner-img-4 {
-        background-image: url(/carpentry-img/ax-2265541_640.png);
+        background-image: url(/plumbing-img/pipes-5146458_640.jpg);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -223,7 +225,7 @@ body {
     }
 
     .partner-img-5 {
-        background-image: url(/carpentry-img/kitchen-2400367_640.png);
+        background-image: url(/plumbing-img/pipe-2369719_640.jpg);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -243,7 +245,7 @@ body {
     }
 
     .partner-img-6 {
-        background-image: url(/carpentry-img/cabin-413770_640.png);
+        background-image: url(/plumbing-img/pipes-196304_640.jpg);
         background-size: cover;
         background-position: center;
         position: relative;
