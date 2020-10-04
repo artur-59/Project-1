@@ -142,7 +142,7 @@ body {
         height: 500px;
     }
 
-    .partner-img {
+    .partner-img-1 {
         background-image: url(/carpentry-img/tools-498202_640.png);
         background-size: cover;
         background-position: center;
@@ -152,7 +152,107 @@ body {
         border-top-right-radius: 20px;
     }
 
-    .partner-img h2 {
+    .partner-img-1 h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        font-size: 30px;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px #000000;
+        color: #ffffff;
+    }
+
+    .partner-img-2 {
+        background-image: url(/carpentry-img/tools-690038_640.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .partner-img-2 h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        font-size: 30px;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px #000000;
+        color: #ffffff;
+    }
+
+    .partner-img-3 {
+        background-image: url(/carpentry-img/workshop-984022_640.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .partner-img-3 h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        font-size: 30px;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px #000000;
+        color: #ffffff;
+    }
+
+    .partner-img-4 {
+        background-image: url(/carpentry-img/ax-2265541_640.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .partner-img-4 h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        font-size: 30px;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px #000000;
+        color: #ffffff;
+    }
+
+    .partner-img-5 {
+        background-image: url(/carpentry-img/kitchen-2400367_640.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .partner-img-5 h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        font-size: 30px;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px #000000;
+        color: #ffffff;
+    }
+
+    .partner-img-6 {
+        background-image: url(/carpentry-img/cabin-413770_640.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .partner-img-6 h2 {
         display: flex;
         justify-content: center;
         margin-top: 150px;
