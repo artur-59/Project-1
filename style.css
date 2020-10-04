@@ -283,6 +283,16 @@ body {
     flex-wrap: wrap;
     
   }
+
+.testimonials-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(pictures/testemonials\ background\ image.jpeg);
+    background-size: cover;
+    color: #fff;
+    min-height: 100vh;
+    
+
+}
+
 blockquote {
         
     font-style: italic;
