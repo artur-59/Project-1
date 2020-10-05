@@ -289,7 +289,7 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(pictures/testemonials\ background\ image.jpeg);
     background-size: cover;
     color: #fff;
-    min-height: 100vh;
+    min-height: 40vh;
     
 
 }
@@ -401,9 +401,7 @@ cite img {
     color: #fff;
     height: 100vh;
     padding-top: 80px;
-    
 }
-
 
 .join-us-title{
     text-align: center;
@@ -678,8 +676,7 @@ h2{
     .how-it-works-block{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        padding-left: 0px;
+        align-items: flex-start;
     }
     .blocks {
         padding-left: 10px;
@@ -709,6 +706,7 @@ h2{
         opacity: 100%;
     }
   }
+
 
 /* ===========FOOTERQUERIES=======*/
 
