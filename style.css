@@ -1,8 +1,8 @@
 /* ==================BODY===================*/
 
 body {
-    font-family: Montserrat,Lato,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
-    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    
 }
 
 /* ==================NAVIGATION-BAR==========*/
@@ -59,6 +59,7 @@ body {
     text-decoration: none;
     color: #000000;
     justify-content: space-evenly;
+    font-weight: 200;
 }
 
 .nav-links-container a:hover {
@@ -356,6 +357,7 @@ cite img {
     margin-top: 3%;
     font-size: 150%;
     color: #555;
+    font-weight: 100;
 }
 
 .about-us-body{
@@ -401,6 +403,7 @@ cite img {
     color: #fff;
     height: 100vh;
     padding-top: 80px;
+    
 }
 
 .join-us-title{
@@ -408,20 +411,24 @@ cite img {
     font-size: 140%;
     padding-top: 30px;
     padding-bottom: 20px;
+    font-weight: 100;
 }
 
 .join-us-contact-form{
     width: 60%;
     margin: 0 auto;
+    font-weight: 100;
 }
 
 .join-us-form-data{
     width: 30%;
+    font-weight: 100;
 }
 
 .join-us-form-input{
 
     width: 60%;
+    font-weight: 100;
 }
 
 
