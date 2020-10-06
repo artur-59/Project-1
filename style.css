@@ -148,6 +148,7 @@ body {
     margin: 0;
     padding: 6px 14px;
     text-transform: uppercase;
+    font-weight: 500;
 }
 .header-title-ee {
     color: #ffb23d;
@@ -157,7 +158,7 @@ body {
     display: inline-block;
     margin-top: 2%;
     font-size: 40px;
-    color:  #6f7175
+    color:  #6f7175;
 }
 
 /* ==================HOW-IT-WORKS==========*/
@@ -673,6 +674,10 @@ h2{
     .nav-links-container a {
         font-size: 16px;
         color: #ffffff;
+    }
+    .services-selection {
+        position: absolute;
+        margin-left: 105px;
     }
     .nav-links-container a:hover {
         color: #ffb23d;

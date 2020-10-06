@@ -125,7 +125,7 @@ body {
   .carpentry-banner {
       padding-top: 50px;
       text-align: center;
-      text-shadow: 2px 2px 2px #000000;
+      text-shadow: 1px 1px 1px #474444;
       height: 300px;
       background-image: url(/carpentry-img/wooden-floor-1853403.png);
       background-size: cover;
@@ -139,10 +139,11 @@ body {
   }
 
   .carpentry-banner-title h1 {
-      font-size: 50px;
-      font-weight: bold;
+      font-size: 70px;
+      text-transform: uppercase;
+      font-weight: 500;
       color: #ffb23d;
-      margin-top: 50%;
+      margin-top: 25%;
   }
 
   .carpenters {
@@ -151,9 +152,10 @@ body {
   }
 
   .carpenters h2 {
-      font-size: 20px;
+      font-size: 35px;
       padding-left: 5%;
-      font-weight: 600;
+      font-weight: 300;
+      color: #6f7175;
   }
 
   /* ==================CARPENTRYCARDS==========*/
@@ -488,6 +490,10 @@ body {
         font-size: 16px;
         color: #ffffff;
     }
+    .services-selection {
+        position: absolute;
+        margin-left: 105px;
+    }
     .nav-links-container a:hover {
         color: #ffb23d;
     }
@@ -517,15 +523,15 @@ body {
 /* ==================BANNER-QUERIES==========*/
 
 @media only screen and (max-width: 580px) {
-    .header-container {
+    .carpentry-banner {
         margin: 0 auto;
         overflow: hidden;
         height: 300px;        
     }
-    .header-title h1 {
+    .carpentry-banner-title h1 {
         font-size: 50px;
     }
-    .header-slogan {
+    .carpenters h2 {
         font-size: 30px;
     }
 }
