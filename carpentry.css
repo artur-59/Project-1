@@ -60,9 +60,41 @@ body {
     justify-content: space-evenly;
 }
 
+
+.services-selection {
+    position: absolute;
+    opacity: 0%;
+    visibility: none;
+}
+
+.services-selection ul {
+    position: relative;
+    margin-top: 0px;
+}
+
+.services-selection li {
+    position: relative;
+    margin: 0px;
+    border: 1px solid #000000;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.services-selection a {
+    color: #ffffff ;
+}
+
+.services-selection a:hover {
+    color: #ffb23d;    
+}
+
 .nav-links-container a:hover {
     color:rgba(255, 183, 72, 0.8);
     text-decoration:none;
+}
+
+.nav-links-container li:hover > div {
+    opacity: 100%;
+    visibility: visible;
 }
 
 #nav-bar-toggle {

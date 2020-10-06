@@ -83,6 +83,10 @@ body {
     color: #ffffff ;
 }
 
+.services-selection a:hover {
+    color: #ffb23d;    
+}
+
 .nav-links-container a:hover {
     color:rgba(255, 183, 72, 0.8);
     text-decoration:none;
@@ -91,10 +95,6 @@ body {
 .nav-links-container li:hover > div {
     opacity: 100%;
     visibility: visible;
-}
-
-.services-selection a:hover {
-    color: #ffb23d;    
 }
 
 #nav-bar-toggle {
