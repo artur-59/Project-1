@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    
 }
 
 /* ==================NAVIGATION-BAR==========*/
@@ -153,7 +152,8 @@ body {
     margin: auto;
     text-align: center;
     padding: 10px;
-    font-size: 120%;
+    font-size: 32px;
+    text-transform: uppercase;
 }
 
 .how-it-works-block{
@@ -172,6 +172,10 @@ body {
     align-items: center;
 }
 
+.blocks p {
+    font-size: 23px;
+}
+
 .block-img {
     width: 60px;
 }
@@ -184,7 +188,9 @@ body {
 
 .services-title {
     text-align: center;
-    font-size: 27px;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .services-banner {
@@ -216,7 +222,8 @@ body {
 .carpentry-service a {
     text-decoration: none;
     color: #000000;
-    font-size: 27px;
+    font-size: 30px;
+
 }
 
 .painting-service {
@@ -237,7 +244,7 @@ body {
 .painting-service a {
     text-decoration: none;
     color: #000000;
-    font-size: 27px;
+    font-size: 30px;
 }
 
 .plumbing-service {
@@ -258,7 +265,7 @@ body {
 .plumbing-service a {
     text-decoration: none;
     color: #000000;
-    font-size: 27px;
+    font-size: 30px;
 }
   
 .carpentry-service:hover {
@@ -291,8 +298,6 @@ body {
     background-size: cover;
     color: #fff;
     min-height: 40vh;
-    
-
 }
 
 blockquote {
@@ -300,14 +305,15 @@ blockquote {
     font-style: italic;
     line-height: 145%;
     position: relative;
-    font-size: 110%;
+    font-size: 24px;
     margin-top: 20px;
     margin-left: 10%;
 }
 
 blockquote:before {
     content: "\201C";
-    font-size: 500%;
+    font-size: 32px;
+    font-weight: 700;
     display: block;
     position: relative;
     top: -5px;
@@ -321,7 +327,7 @@ blockquote:before {
 }
 
 cite {
-    font-size: 90%;
+    font-size: 24px;
     margin-top: 2%;
     display: block;
 }
@@ -345,19 +351,20 @@ cite img {
 }
 
 .about-us-main-title{
-    font-size: 300%;
+    font-size: 32px;
+    font-weight: 700;
     color:#e67e22;
     text-align: center;
-
+    text-transform: uppercase;
 }
 
 .about-us-main-text{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 3%;
-    font-size: 150%;
+    font-size: 24px;
     color: #555;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .about-us-body{
@@ -374,7 +381,8 @@ cite img {
 
 .about-us-title{
     margin-left: 13%;
-    font-size: 180%;
+    font-size: 32px;
+    font-weight: 700;
     color:#e67e22;
     margin-bottom: 3%;
 
@@ -384,7 +392,7 @@ cite img {
     margin-left: 13%;
     margin-right: 10%;
     margin-bottom: 6%;
-    font-size: 120%;
+    font-size: 24px;
     color: #555;
 }
 
@@ -403,15 +411,14 @@ cite img {
     color: #fff;
     height: 100vh;
     padding-top: 80px;
-    
 }
 
 .join-us-title{
     text-align: center;
-    font-size: 140%;
+    font-size: 24px;
     padding-top: 30px;
     padding-bottom: 20px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .join-us-contact-form{
@@ -432,7 +439,6 @@ cite img {
 }
 
 
-
 input[type=text],
 input[type=email],
 select,
@@ -449,7 +455,7 @@ textarea{
 }
 
 .formtext{
-    font-size: 140%;
+    font-size: 20px;
 }
 
 
@@ -462,9 +468,9 @@ textarea{
 h2{
     padding-top: 10px;
     padding-left: 10px;
-    font-weight: 300;
+    font-weight: 700;
     text-transform: uppercase;
-    font-size: 180%;
+    font-size: 32px;
     word-spacing: 2px;
 }
 
