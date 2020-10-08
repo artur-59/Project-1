@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="painting.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=David+Libre&family=Poppins:wght@200;600;400&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 <body>
 <nav class="nav-bar-container">
@@ -49,8 +50,7 @@
     <div><h2>Choose one of our partner Painters:</h2></div>
 </section>
 <section class="painters-cards">
-
-  <div class="card-number">
+  <div class="card-number flip-card" id="0">
     <div class="flip-card-front">
        <div class="partner-img-1">
         <br><h2>Murphy's Studio</h2>
@@ -59,16 +59,25 @@
         <p>We paint all kinds of house interiors and outside walls.</p>
       </div>
       <div class="click-me">
-      <button class="flip-card-btn-turn-to-back">
+      <button class="flip-card-btn-turn-to-back" id="0">
         <span>I want to know more!</span>
       </button>
       </div>
      </div>
     <div class="flip-card-back">
-      Back<span class="flip-card-btn-turn-to-front">X</span>
+      <div class="partner-img-1">
+        <br><h2>Murphy's Studio</h2>
+      </div>
+      <div class="description">
+        <p><i class="fa fa-phone-square"></i> 077 4465 8809 <br><br>
+          <span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> AB41 6TQ - LONDON <br><br>
+          &#x2709; murphystudio@info.com <br><br>
+          <span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> 9am to 6pm</p>
+      </div>
+      <span class="flip-card-btn-turn-to-front" id="0">X</span>
     </div>
   </div>
-  <div class="card-number">
+  <div class="card-number flip-card" id="1">
     <div class="flip-card-front">
        <div class="partner-img-2">
         <br><h2>Flying Brush</h2>
@@ -77,87 +86,133 @@
         <p>Outstanding house interiors come to life with our magic brushes.</p>
       </div>
       <div class="click-me">
-      <button class="flip-card-btn-turn-to-back">
+      <button class="flip-card-btn-turn-to-back" id="1">
         <span>I want to know more!</span>
       </button>
       </div>
      </div>
     <div class="flip-card-back">
-      Back<span class="flip-card-btn-turn-to-front">X</span>
+      <div class="partner-img-2">
+        <br><h2>Flying Brush</h2>
+      </div>
+      <div class="description">
+        <p><i class="fa fa-phone-square"></i> 070 1634 1268 <br><br>
+          <span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> WR6 0BW - LONDON <br><br>
+          &#x2709; leflyingbrush@info.com <br><br>
+          <span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> 9am to 6pm</p>
+      </div>
+      <span class="flip-card-btn-turn-to-front" id="1">X</span>
     </div>
   </div>
-  <div class="card-number">
+  <div class="card-number flip-card" id="2">
     <div class="flip-card-front">
        <div class="partner-img-3">
         <br><h2>Pike Shop</h2>
       </div>
       <div class="description">
-        <p>You pick the colors, we paint.</p>
+        <p>You pick the colors, we do the painting .</p>
       </div>
       <div class="click-me">
-      <button class="flip-card-btn-turn-to-back">
+      <button class="flip-card-btn-turn-to-back" id="2">
         <span>I want to know more!</span>
       </button>
       </div>
      </div>
     <div class="flip-card-back">
-      Back<span class="flip-card-btn-turn-to-front">X</span>
+      <div class="partner-img-3">
+        <br><h2>Pike Shop</h2>
+      </div>
+      <div class="description">
+        <p><i class="fa fa-phone-square"></i> 079 3000 2467 <br><br>
+          <span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> DT2 7EW - LONDON <br><br>
+          &#x2709; pikespike@info.com <br><br>
+          <span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> 9am to 6pm</p>
+      </div>
+      <span class="flip-card-btn-turn-to-front" id="2">X</span>
     </div>
   </div>
-  <div class="card-number">
+  <div class="card-number flip-card" id="3">
     <div class="flip-card-front">
        <div class="partner-img-4">
         <br><h2>Marvin Marvelous</h2>
       </div>
       <div class="description">
-        <p>You pick the colors, we paint.</p>
+        <p>You do the dreaming we do the painting.</p>
       </div>
       <div class="click-me">
-      <button class="flip-card-btn-turn-to-back">
-        <span>We paint your dreams.</span>
+      <button class="flip-card-btn-turn-to-back" id="3">
+        <span>I want to know more!</span>
       </button>
       </div>
      </div>
     <div class="flip-card-back">
-      Back<span class="flip-card-btn-turn-to-front">X</span>
+      <div class="partner-img-4">
+        <br><h2>Marvin Marvelous</h2>
+      </div>
+      <div class="description">
+        <p><i class="fa fa-phone-square"></i> 077 3329 8827 <br><br>
+          <span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> GL7 9LB - LONDON <br><br>
+          &#x2709; marvin_hagler@info.com <br><br>
+          <span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> 9am to 6pm</p>
+      </div>
+      <span class="flip-card-btn-turn-to-front" id="3">X</span>
     </div>
   </div>
-  <div class="card-number">
+  <div class="card-number flip-card" id="4">
     <div class="flip-card-front">
        <div class="partner-img-5">
         <br><h2>Sassy Brushes</h2>
       </div>
       <div class="description">
-        <p>You pick the colors, we paint.</p>
+        <p>We make sad walls go bold, alive and sassy!</p>
       </div>
       <div class="click-me">
-      <button class="flip-card-btn-turn-to-back">
-        <span>Be bold.</span>
+      <button class="flip-card-btn-turn-to-back" id="4">
+        <span>I want to know more!</span>
       </button>
       </div>
      </div>
     <div class="flip-card-back">
-      Back<span class="flip-card-btn-turn-to-front">X</span>
-    </div>
-  </div>
-  <div class="card-number">
-    <div class="flip-card-front">
-       <div class="partner-img-6">
-        <br><h2>God Walls</h2>
+      <div class="partner-img-5">
+        <br><h2>Sassy Brushes</h2>
       </div>
       <div class="description">
-        <p>Perfection is a brushstroke away!</p>
+        <p><i class="fa fa-phone-square"></i> 079 2407 5139 <br><br>
+          <span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> AB3 3SY - LONDON <br><br>
+          &#x2709; themsassybrushes@info.com <br><br>
+          <span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> 9am to 6pm</p>
+      </div>
+      <span class="flip-card-btn-turn-to-front" id="4">X</span>
+    </div>
+  </div>
+  <div class="card-number flip-card" id="5">
+    <div class="flip-card-front">
+       <div class="partner-img-6">
+        <br><h2>Godly Walls</h2>
+      </div>
+      <div class="description">
+        <p>You order we deliver. Quality products everywhere.</p>
       </div>
       <div class="click-me">
-      <button class="flip-card-btn-turn-to-back">
-        <span>Be bold.</span>
+      <button class="flip-card-btn-turn-to-back" id="5">
+        <span>I want to know more!</span>
       </button>
       </div>
      </div>
     <div class="flip-card-back">
-      Back<span class="flip-card-btn-turn-to-front">X</span>
+      <div class="partner-img-6">
+        <br><h2>Perfection is a brushstroke away!</h2>
+      </div>
+      <div class="description">
+        <p><i class="fa fa-phone-square"></i> 070 4540 3622 <br><br>
+          <span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> NR11 2GB - LONDON <br><br>
+          &#x2709; godlywalls@info.com <br><br>
+          <span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> 9am to 6pm</p>
+      </div>
+      <span class="flip-card-btn-turn-to-front" id="5">X</span>
     </div>
   </div>
+</div>
 </section>
 <footer class="footer-container">
     <div class="footer-links-container">
@@ -191,6 +246,6 @@
                 </p>
               </div>
 </footer>
-    <script src="script.js"></script>
+    <script src="painting.js"></script>
 </body>
 </html>

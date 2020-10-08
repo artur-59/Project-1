@@ -22,44 +22,44 @@ that we want to add
                         {"<i class="fa fa-phone-square"></i>": "070 4540 3622", "ZIP Code": "NR11 2GB - LONDON", "&#x2709;": "" , "Schedule": "9am to 5pm"}];
 */
 
-const carpentryArray = [
-    {
-        phoneNumber: "123124124",
-        zipCode: "asd",
-        email: "info@info.com",
-        schedule: "9am to 5pm"
-    },
-    {
-        phoneNumber: "123124124",
-        zipCode: "asd",
-        email: "info@info.com",
-        schedule: "9am to 5pm"
-    },
-    {
-        phoneNumber: "123124124",
-        zipCode: "asd",
-        email: "info@info.com",
-        schedule: "9am to 5pm"
-    },
-    {
-        phoneNumber: "123124124",
-        zipCode: "asd",
-        email: "info@info.com",
-        schedule: "9am to 5pm"
-    },
-    {
-        phoneNumber: "123124124",
-        zipCode: "asd",
-        email: "info@info.com",
-        schedule: "9am to 5pm"
-    },
-    {
-        phoneNumber: "123124124",
-        zipCode: "asd",
-        email: "info@info.com",
-        schedule: "9am to 5pm"
-    }
-];
+// const carpentryArray = [
+//     {
+//         phoneNumber: "123124124",
+//         zipCode: "asd",
+//         email: "info@info.com",
+//         schedule: "9am to 5pm"
+//     },
+//     {
+//         phoneNumber: "123124124",
+//         zipCode: "asd",
+//         email: "info@info.com",
+//         schedule: "9am to 5pm"
+//     },
+//     {
+//         phoneNumber: "123124124",
+//         zipCode: "asd",
+//         email: "info@info.com",
+//         schedule: "9am to 5pm"
+//     },
+//     {
+//         phoneNumber: "123124124",
+//         zipCode: "asd",
+//         email: "info@info.com",
+//         schedule: "9am to 5pm"
+//     },
+//     {
+//         phoneNumber: "123124124",
+//         zipCode: "asd",
+//         email: "info@info.com",
+//         schedule: "9am to 5pm"
+//     },
+//     {
+//         phoneNumber: "123124124",
+//         zipCode: "asd",
+//         email: "info@info.com",
+//         schedule: "9am to 5pm"
+//     }
+// ];
 
 // const buttons = document.querySelectorAll('flip-card-btn-turn-to-back');
 

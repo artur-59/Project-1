@@ -299,15 +299,12 @@ body {
         color: #ffffff;
     }
 
-    .description {
-        height: 1fr;
-    }
 
     .description p {
         font-size: 20px;
         text-align: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 
     .click-me {
@@ -325,6 +322,72 @@ body {
         font-size: 20px;
         font-weight: bold;
     }
+
+    /*================ BACKCARDS ============*/
+
+    .flip-card {
+        border-radius: 20px;
+        width: 320px;
+        height: 500px;
+        text-align: center;
+        
+        -o-transition: all 1s ease-in-out;
+        -webkit-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        -o-transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+      }
+    
+      .do-flip {
+        -o-transform: rotateY(-180deg);
+        -webkit-transform: rotateY(-180deg);
+        -ms-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+      }
+      .flip-card .flip-card-front, .flip-card .flip-card-back{
+         width: 320px;
+        height: 500px;
+        position: absolute;
+        -o-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        z-index: 2;
+      }
+      .flip-card .flip-card-front {
+        background: white;
+        border-radius: 20px;
+        border:1px solid grey;
+      }
+      .flip-card-back {
+          border-radius: 20px;
+          border: 1px solid grey;
+          -o-transform: rotateY(180deg);
+          -webkit-transform: rotateY(180deg);
+          -ms-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+      }
+      .flip-card-btn-turn-to-front {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #000000;
+        border-radius: 8px;
+        background: #ffffff;
+        cursor: pointer;
+        visibility: visible;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 0;
+        color: rgb(0, 0, 0);
+        border: 1px solid grey;
+      }
+
 
   /* ==================FOOTER==========*/
       
