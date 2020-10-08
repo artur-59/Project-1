@@ -61,43 +61,76 @@ const carpentryArray = [
     }
 ];
 
-const buttons = document.querySelectorAll('flip-card-btn-turn-to-back');
+// const buttons = document.querySelectorAll('flip-card-btn-turn-to-back');
 
 
-for(i=0; i<buttons.length; i++){
-    buttons[i].addEventListener("click", function(event) {
-        console.log(event.currentTarget.className);
-        const contentBack = document.getElementsByClassName('flip-card-back')[i]
-        const index = event.currentTarget.className;
-        const popup = document.createElement('div');
-        popup.innerHTML = `<div class="pop-up">
-            <p>
-                <span><i class="fa fa-phone-square"></i> </span>${carpentryArray[index].phoneNumber}
-            </p>
-            <p>
-                <span><span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> </span>${carpentryArray[index].zipCode}
-            </p>
-            <p>
-                <span>&#x2709; </span>${carpentryArray[index].email}
-            </p>
-            <p>
-                <span><span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> </span>${carpentryArray[index].schedule}
-            </p>
-        </div><span id="flip-card-btn-turn-to-front">X</span>`;
-        document.getElementsByClassName('flip-card-back').innerHTML = popup;
-        // document.getElementsByClassName('flip-card-back').appendChild(popup);
-        // const closeButton = document.createElement('button');
-        // document.popup.appendChild(closeButton);
+// for(i=0; i<buttons.length; i++){
+//     buttons[i].addEventListener("click", function(event) {
+//         console.log(event.currentTarget.className);
+//         const contentBack = document.getElementsByClassName('flip-card-back')[i]
+//         const index = event.currentTarget.className;
+//         const popup = document.createElement('div');
+//         popup.innerHTML = `<div class="pop-up">
+//             <p>
+//                 <span><i class="fa fa-phone-square"></i> </span>${carpentryArray[index].phoneNumber}
+//             </p>
+//             <p>
+//                 <span><span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> </span>${carpentryArray[index].zipCode}
+//             </p>
+//             <p>
+//                 <span>&#x2709; </span>${carpentryArray[index].email}
+//             </p>
+//             <p>
+//                 <span><span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> </span>${carpentryArray[index].schedule}
+//             </p>
+//         </div><span id="flip-card-btn-turn-to-front">X</span>`;
+//         document.getElementsByClassName('flip-card-back').innerHTML = popup;
+//         // document.getElementsByClassName('flip-card-back').appendChild(popup);
+//         // const closeButton = document.createElement('button');
+//         // document.popup.appendChild(closeButton);
         
-        });
+//         });
+// }
+
+// Pseudocode
+// Stage 0.1 
+// Change all of the ids to classes e.g. flip-card-btn-turn-to-back & flip-card-btn-turn-to-front
+
+// DONE
+
+// Stage 1 
+// Get all of the buttons with the class name 'flip-card-btn-turn-to-back'
+// loop through these buttons adding an event listener each time
+//  use this coupled with event.currentTarget.classList.toggle('do-flip');
+
+
+const turnToBackButtons = document.getElementsByClassName('flip-card-btn-turn-to-back');
+const turnToFrontButtons = document.getElementsByClassName('flip-card-btn-turn-to-front');
+const cards = document.getElementsByClassName('flip-card');
+
+console.log(turnToBackButtons);
+
+for(i=0; i< turnToBackButtons.length; i++){
+    turnToBackButtons[i].addEventListener('click', function(event){
+        let id = event.currentTarget.id
+        cards[id].classList.toggle('do-flip');
+        turnToBackButtons[id].style.visibility = 'visible';
+    })
 }
 
-document.addEventListener('DOMContentLoaded', function(event) {
-    document.getElementById('flip-card-btn-turn-to-front').style.visibility = 'visible';
-    document.getElementById('flip-card-btn-turn-to-back').onclick = function() {
-    document.getElementById('flip-card').classList.toggle('do-flip');
-    };
-    document.getElementById('flip-card-btn-turn-to-front').onclick = function() {
-    document.getElementById('flip-card').classList.toggle('do-flip');
-    };
-  });
+for(i=0; i< turnToFrontButtons.length; i++){
+    turnToFrontButtons[i].addEventListener('click', function(event){
+        let id = event.currentTarget.id
+        cards[id].classList.toggle('do-flip');
+    })
+}
+
+// Stage 2 
+// Get all the buttons with the class flip-card-btn-turn-to-front
+// loop through these buttons adding an event listener each time
+//  use this coupled with event.currentTarget.classList.toggle('do-flip');
+
+
+// Stage 3 
+// Inject the HTML for the back of each card
+//  Alternative add the html directly in the carpentry.html file
