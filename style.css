@@ -435,7 +435,6 @@ cite img {
 }
 
 
-
 /*------------------Jois-Us--------------------*/
 
 
@@ -444,12 +443,16 @@ cite img {
     background-size: cover;
     color: #fff;
     height: 100vh;
-    padding-top: 80px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .join-us-title{
     text-align: center;
-    font-size: 24px;
+    font-size: 19px;
     padding-top: 30px;
     padding-bottom: 20px;
     font-weight: 300;
@@ -485,7 +488,7 @@ textarea {
 
 
 textarea{
-    height: 100px;
+    height: 50px;
 }
 
 .formtext{
