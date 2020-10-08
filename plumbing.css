@@ -65,7 +65,7 @@ body {
 .services-selection {
     position: absolute;
     opacity: 0%;
-    visibility: none;
+    display: none;
 }
 
 .services-selection ul {
@@ -96,7 +96,7 @@ body {
 
 .nav-links-container li:hover > div {
     opacity: 100%;
-    visibility: visible;
+    display: block;
 }
 
 #nav-bar-toggle {
