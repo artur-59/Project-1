@@ -10,30 +10,87 @@
     eventually hire them.">
     <meta name="keywords" content="Carpentry, Painting, Plumbing, Home repairs, Repair skills, Fixing stuff 
     around your house,">
-    <title>Fix me please? Feel free to type in any name that you like!</title>
+    <title>FIXEE</title>
+    <link rel="icon" href="/Logo/logo-browser-tab.jpeg">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="queries.css">
+    <link href="https://fonts.googleapis.com/css2?family=David+Libre&family=Poppins:wght@200;600;400&display=swap" rel="stylesheet">
 </head>
 <body>
-<nav class="navigation-bar-container">
-
+<nav class="nav-bar-container">
+    <input id="nav-bar-toggle" type="checkbox">
+    <div class="nav-logo-container">
+        <li><a href="index.html"><img src="/Logo/logo-nav.png" alt="Fixee Logo"></a></li>
+    </div>
+    <ul class="nav-links-container">
+        <li><a href="#">Services</a>
+            <div class="services-selection">
+                <ul>
+                    <li><a href="carpentry.html">Carpentry</a></li>
+                    <li><a href="painting.html">Painting</a></li>
+                    <li><a href="plumbing.html">Plumbing</a></li>
+                </ul></li>
+            </div>
+        <li><a href="#how-it-works">How it Works</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#join-us">Join Us</a></li>
+    </ul>
+    <label for="nav-bar-toggle" class="nav-bar-icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </label>
 </nav>
-<section class="header-img">
-
+<section class="header-container">
+    <div class="header-title">
+        <h1>Fix<span class="header-title-ee">ee</span> Me Please</h1>
+        <span class="header-slogan">Here you can find the right person for the right job</span>
+    </div>
+    <span></span>
 </section>
-<section class="how-it-works-container">
-
+<section class="how-it-works-container" id="how-it-works">
+<div class="how-it-works-row">
+    <h1 class="how-it-works-h1"> How it works...</h1>
+    <ul class="how-it-works-block">
+        <li class="blocks">
+            <img class="block-img" src="img/img1.png" >
+            <p> Need to fix something in your house</p>
+        </li>
+        <li class="blocks">
+            <img class="block-img" src="img/img2.png" > 
+            <p> Search among our service providers, choose the best </p>
+        </li>
+        <li class="blocks">
+             <img class="block-img" src="img/img3.png" > 
+            <p> Agree an appointment and enjoy your service</p>
+        </li>
+    </ul>
+</div>
+<hr>
 </section>
-<section class="services-container">
-
+<section class="services-container" id="services">
+    <div class="services-title">
+        <h1>Our Services</h1>
+    </div>    
+        <div class="services-banner">
+                <div class="carpentry-service">
+                    <li><a href="carpentry.html">Carpentry</a></li>
+                </div>     
+                <div class="painting-service">
+                    <li><a href="painting.html">Painting</a></li>
+                </div>
+                <div class="plumbing-service">
+                    <li><a href="plumbing.html">Plumbing</a></li>
+                </div>
+        </div>
 </section>
 <section class="testimonials-container">
     <div class="row">
         <h2>What our customers think about us</h2>
-    </div>
-    
+    </div>    
     <div class="row">
         <div class="customer-testemonial">
             <blockquote>This website solved my problems of find good companies to fix my things at home.
@@ -49,70 +106,58 @@
             <blockquote>5 starts service!! Very easy to search and find what i was looking for. Congrats.
                    <cite><img src="pictures/customer-3.jpg" alt="Customer 3 photo">Milton Chapman</cite>
             </blockquote>
-        </div>
-    
+        </div>    
         <div class="customer-testemonial">
             <blockquote>I found lots of options for my needs, brilliant service. I will use agains for sure.
-                   <cite><img src="pictures/customer-4.jpg" alt="Customer 4 photo">Alberto Duncan</cite>
+                   <cite><img src="pictures/customer-4.jpg" alt="Customer 4 photo">Mark Spence</cite>
             </blockquote>
         </div>
         <div class="customer-testemonial">
             <blockquote>I was always asking friends for services recommendations, with this site its much better.
-                   <cite><img src="pictures/customer-5.jpg" alt="Customer 5 photo">Joana Silva</cite>
+                   <cite><img src="pictures/customer-5.jpg" alt="Customer 5 photo">Rachel Jasper</cite>
             </blockquote>
         </div>
         <div class="customer-testemonial">
             <blockquote>What a nice idea! Helped me a lot, already add the website to my favourites! Well done.
-                   <cite><img src="pictures/customer-6.jpg" alt="Customer 6 photo">Milton Chapman</cite>
+                   <cite><img src="pictures/customer-6.jpg" alt="Customer 6 photo">Rose Brown</cite>
             </blockquote>
         </div>
-    </div>
-    
-    
-    
+    </div>       
 </section>
-<section class="about-us-container">
+<section class="about-us-container" id="about-us">
     <div class="about-us-header">
-        <div class="about-us-main-title"> About us
-            
+        <div class="about-us-main-title"> About us            
         </div>
         <div class="about-us-main-text">
-            kjhladkjadçljas sasasasasasa sasasasa sasasasas asasasaa çld kaçlksda çl kaçlmda mdça  slçks-.am s .,amd,a m,d.mad , m s,dmwkjq ,.ms.a, m s.s.a,.d amd, m a.d a.dma,.
+            Fixee was created in 2020 with the purpose of helping Londoners find the best home repair companies, handyman repair services and home maintenance solutions in their neighborhood.<br>Our culture is dedicated to delivering high quality and superior service through our skilled and expert partners.
         </div>
-
-    </div>
-    
+    </div>    
     <div class="about-us-body">
         <div class="about-us-contacts">
             <div class="about-us-title">
                 Contact Us
             </div>
             <div class="about-us-text">
-                asha dja kld hlsj dakj dla s sa sasasa sa  as a s  sa s as a sa s slk dnalsn dka aaaa aaaa aaaaaaa aaaaaaa  a aaa
+                <i class="fa fa-phone-square"></i> 850 840 231<br>&#x2709; info@fixee.com
             </div>
             <div class="about-us-title">
-                Contact Us
+                Location
             </div>
             <div class="about-us-text">
-                asha dja kld hlsj dakj dlaslk dnalsn dka aaaa aaaa aaaaaaa aaaaaaa  a aaa  
+                Shard Building 3rd floor, Joiner Street - SE1 9QU - London
             </div>
-
         </div>
-        
         <div class="about-us-map">
             <iframe class="map"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.475057610789!2d-0.08868868464301759!3d51.50449997963459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876035a0a9271d3%3A0xbdf26ba73efb7b!2sShard%20London%20Bridge!5e0!3m2!1spt-PT!2spt!4v1601546576043!5m2!1spt-PT!2spt" width="300" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>>
-
         </div>
     </div>
  </section>
-
-
-<section class="join-us-container">
+<section class="join-us-container" id="join-us">
     <div class="row">
         <h2>Join Us</h2>
     </div>
     <div class="join-us-title">
-        Offer your services through our website, just give us your details!
+        If you want to offer your services through our website, fill in the form and we will contact you within 48h!
     </div>
     <div class="row">
         <form method="post" action="#" class="join-us-contact-form">
@@ -132,7 +177,6 @@
                     <input type="email" name="email" id="email" placeholder="Your email" required>
                 </div>
             </div>
-
             <div class="row">
                 <div class="join-us-form-data">
                     <label class="formtext" for="Contact">Phone Number</label>
@@ -141,14 +185,12 @@
                     <input type="number" name="Phone Number" id="Phone Number" placeholder="Your Phone Number" required>
                 </div>
             </div>
-            
-            
             <div class="row">
                 <div class="join-us-form-data">
-                    <label class="formtext">Send us a comment</label>
+                    <label class="formtext">Message</label>
                 </div>
                 <div class="join-us-form-input">
-                    <textarea name="message" placeholder="Your message"></textarea>
+                    <textarea name="message" placeholder="Type in your message"></textarea>
                 </div>
             </div>
             <div class="row">
@@ -158,14 +200,47 @@
                 <div class="join-us-form-input">
                     <input type="submit" value="Register">
                 </div>
-            </div>
-        </form>
-    </div>
-
 </section>
 <footer class="footer-container">
-
+    <div class="footer-links-container">
+            <div class="footer-links-1">
+              <h6>Need help?</h6>
+              <ul class="footer-links">
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Certifications</a></li>
+              </ul>
+            </div>
+            <div class="footer-links-2">
+              <h6>Legal</h6>
+              <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+              </ul>
+            </div>
+    </div>
+            <div class="footer-social-media">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+              </ul>
+            </div>
+            <hr>
+            <div class="footer-copyright">
+                <p>Copyright &copy; 2020 All Rights Reserved by FIXEE.
+                </p>
+              </div>
 </footer>
     <script src="script.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-16939472-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-16939472-1');
+    </script>
 </body>
 </html>

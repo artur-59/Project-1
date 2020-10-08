@@ -1,0 +1,609 @@
+/* ==================BODY===================*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ==================NAVIGATION-BAR==========*/
+
+.nav-bar-container {
+    position: fixed;
+    padding-left: 5%;
+    padding-right: 5%;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 60px;
+    background-color: #ffffff;
+    margin-bottom: 0 auto;
+}
+
+.nav-logo-container {
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo-container img {
+    height: 60px;
+}
+
+.nav-logo-container li {
+    list-style: none;
+}
+
+.nav-links-container {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links-container li {
+    list-style: none;
+}
+
+.nav-links-container a {
+    display: block;
+    padding: 1em;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    justify-content: space-evenly;
+    font-weight: 200;
+}
+
+
+.services-selection {
+    position: absolute;
+    opacity: 0%;
+    display: none;
+}
+
+.services-selection ul {
+    position: relative;
+    margin-top: 0px;
+}
+
+.services-selection li {
+    position: relative;
+    margin: 0px;
+    border: 1px solid #000000;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.services-selection a {
+    color: #ffffff ;
+}
+
+.services-selection a:hover {
+    color: #ffb23d;    
+}
+
+.nav-links-container a:hover {
+    color:rgba(255, 183, 72, 0.8);
+    text-decoration:none;
+}
+
+.nav-links-container li:hover > div {
+    opacity: 100%;
+    display: block;
+}
+
+#nav-bar-toggle {
+    position: absolute;
+    top: -100px;
+}
+
+.nav-bar-icon-burger {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-bar-icon-burger .line {
+    width: 30px;
+    height: 5px;
+    background-color: #000000;
+    margin: 5px;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+}
+
+
+  /* ==================CARPENTRYBANNER==========*/
+
+  .carpentry-banner {
+      padding-top: 50px;
+      text-align: center;
+      text-shadow: 1px 1px 1px #474444;
+      height: 300px;
+      background-image: url(/carpentry-img/wooden-floor-1853403.png);
+      background-size: cover;
+      background-position: center;
+  }
+
+  .carpentry-banner {
+      display: flex;
+      justify-content: center;
+      position: relative;
+  }
+
+  .carpentry-banner-title h1 {
+      font-size: 70px;
+      text-transform: uppercase;
+      font-weight: 500;
+      color: #ffb23d;
+      margin-top: 25%;
+  }
+
+  .carpenters {
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+
+  .carpenters h2 {
+      font-size: 35px;
+      padding-left: 5%;
+      font-weight: 300;
+      color: #6f7175;
+  }
+
+  /* ==================CARPENTRYCARDS==========*/
+
+    .carpenters-cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card-number {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        margin: 20px;
+        border-radius: 20px;
+        width: 320px;
+        height: 500px;
+    }
+
+    .partner-img-1 {
+        background-image: url(/carpentry-img/tools-498202_640.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .partner-img-1 h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        font-size: 30px;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px #000000;
+        color: #ffffff;
+    }
+
+    .partner-img-2 {
+        background-image: url(/carpentry-img/tools-690038_640.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .partner-img-2 h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        font-size: 30px;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px #000000;
+        color: #ffffff;
+    }
+
+    .partner-img-3 {
+        background-image: url(/carpentry-img/workshop-984022_640.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .partner-img-3 h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        font-size: 30px;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px #000000;
+        color: #ffffff;
+    }
+
+    .partner-img-4 {
+        background-image: url(/carpentry-img/ax-2265541_640.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .partner-img-4 h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        font-size: 30px;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px #000000;
+        color: #ffffff;
+    }
+
+    .partner-img-5 {
+        background-image: url(/carpentry-img/kitchen-2400367_640.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .partner-img-5 h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        font-size: 30px;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px #000000;
+        color: #ffffff;
+    }
+
+    .partner-img-6 {
+        background-image: url(/carpentry-img/cabin-413770_640.png);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .partner-img-6 h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        font-size: 30px;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px #000000;
+        color: #ffffff;
+    }
+
+    .description p {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    .click-me {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .click-me button{
+        background-image: url(/carpentry-img/hardwood-1851071_640.png);
+        background-size: contain;
+        padding: 20px 25px;
+        border-radius: 5px;
+        border-color: #dcac90;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 5px;
+        margin-left: 33px;
+    }
+
+    /*================ BACKCARDS ============*/
+
+    .flip-card {
+        border-radius: 20px;
+        width: 320px;
+        height: 500px;
+        text-align: center;
+        
+        -o-transition: all 1s ease-in-out;
+        -webkit-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        -o-transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+      }
+    
+      .do-flip {
+        -o-transform: rotateY(-180deg);
+        -webkit-transform: rotateY(-180deg);
+        -ms-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+      }
+      .flip-card .flip-card-front, .flip-card .flip-card-back{
+         width: 320px;
+        height: 500px;
+        position: absolute;
+        -o-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        z-index: 2;
+      }
+      .flip-card .flip-card-front {
+        background: white;
+        border-radius: 20px;
+        border:1px solid grey;
+      }
+      .flip-card-back {
+          border-radius: 20px;
+          border: 1px solid grey;
+          -o-transform: rotateY(180deg);
+          -webkit-transform: rotateY(180deg);
+          -ms-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+      }
+      .flip-card-btn-turn-to-front {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #000000;
+        border-radius: 8px;
+        background: #ffffff;
+        cursor: pointer;
+        visibility: visible;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 0;
+        color: rgb(0, 0, 0);
+        border: 1px solid grey;
+      }
+
+  /* ==================FOOTER==========*/
+      
+  .footer-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    bottom: 0;
+    background-color: #fff;
+    font-size:15px;
+    line-height:24px;
+    padding-top: 100px;
+}
+
+.footer-links-container {
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+}
+
+.footer-links-1 {
+    margin: 10px;
+}
+
+.footer-links-2 {
+    margin: 10px;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links-container h6 {
+    text-align: center;
+    color:#ffb23d;
+    text-shadow: 0.1px 0.1px 0.1px #ffb23d;
+    font-size:18px;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    margin: 0px 10px;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover {
+    color: rgb(255, 183, 72);
+    text-decoration:none;
+}
+
+.footer-social-media {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+    
+.footer-social-icons a {
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-left:0;
+    margin-right:0;
+    border-radius:100%;
+    background-color:#33353d
+}
+
+.social-icons li {
+  display:inline-flex;
+  margin-bottom:4px;
+}
+
+.social-icons a {
+ background-color:#000000;
+  color:#ffffff;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+    
+.social-icons a.facebook:hover {
+  background-color:#3b5998
+}
+
+.social-icons a.twitter:hover {
+  background-color:#00aced
+}
+
+.social-icons a.instagram:hover {
+  background-color:#8a3ab9
+}
+    
+.social-icons a.pinterest:hover {
+  background-color:#c8232c
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.footer-copyright p {
+    text-align: center;
+}
+
+/* ==================MEDIAQUERIES==========*/
+
+/* ==================NAVIGATION-BAR-QUERIES==========*/
+
+@media screen and (max-width: 1025px) {
+    .nav-bar-container {
+        height: 40px;
+    }
+    .nav-links-container {
+        top: 40px;
+    }
+    .nav-logo-container img {
+        width: 70%;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .nav-bar-container {
+        height: 40px;
+    }
+    .nav-logo-container {
+        float: none;
+        width: auto;
+        justify-content: center;
+        width: 60%;
+    }
+    .nav-logo-container img {
+        height: 40px;
+    }
+    .nav-links-container {
+        float: none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        right: 0;
+        top: 40px;
+        bottom: 100%;
+        background-color: rgba(0, 0, 0, 0.97);
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        transition: all .5s ease-in-out;
+    }
+    .nav-links-container a {
+        font-size: 16px;
+        color: #ffffff;
+    }
+    .services-selection {
+        position: absolute;
+        margin-left: 105px;
+    }
+    .nav-links-container a:hover {
+        color: #ffb23d;
+    }
+    .nav-bar-container :checked ~ .nav-links-container {
+        bottom: 0;
+    }
+    .nav-bar-icon-burger {
+        display: block;
+    }
+    .nav-bar-container :checked ~.nav-bar-icon-burger .line:nth-child(1) {
+        transform: translateY(8px) rotate(225deg);
+    }
+    .nav-bar-container :checked ~.nav-bar-icon-burger .line:nth-child(3) {
+        transform: translateY(-8px) rotate(-225deg);
+    }
+    .nav-bar-container :checked ~.nav-bar-icon-burger .line:nth-child(2) {
+        opacity: 0%;
+    }
+    .nav-bar-icon-burger .line {
+        height: 2px;
+    }
+    .nav-logo-container {
+        justify-content: flex-start;
+    }
+}
+
+/* ==================BANNER-QUERIES==========*/
+
+@media only screen and (max-width: 580px) {
+    .carpentry-banner {
+        margin: 0 auto;
+        overflow: hidden;
+        height: 300px;        
+    }
+    .carpentry-banner-title h1 {
+        font-size: 50px;
+    }
+    .carpenters h2 {
+        font-size: 30px;
+    }
+}
+
+/* ===========FOOTERQUERIES=======*/
+
+@media (max-width: 334px){
+    .footer-links a {
+        display: block;
+    }
+}

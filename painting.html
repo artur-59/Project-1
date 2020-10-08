@@ -10,10 +10,242 @@
     eventually hire them.">
     <meta name="keywords" content="Carpentry, Painting, Plumbing, Home repairs, Repair skills, Fixing stuff 
     around your house,">
-    <title>Painting</title>
-    <link rel="stylesheet" href="style.css">
+    <title>FIXEE Painting</title>
+    <link rel="icon" href="/Logo/logo-browser-tab.jpeg">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="painting.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=David+Libre&family=Poppins:wght@200;600;400&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 <body>
-    <script src="script.js"></script>
+<nav class="nav-bar-container">
+    <input id="nav-bar-toggle" type="checkbox">
+    <div class="nav-logo-container">
+        <li><a href="index.html"><img src="/Logo/logo-nav.png" alt="Fixee Logo"></a></li>
+    </div>
+    <ul class="nav-links-container">
+      <li><a href="#">Services</a>
+        <div class="services-selection">
+            <ul>
+                <li><a href="carpentry.html">Carpentry</a></li>
+                <li><a href="painting.html">Painting</a></li>
+                <li><a href="plumbing.html">Plumbing</a></li>
+            </ul></li>
+        </div></li>
+      <li><a href="index.html#how-it-works">How it Works</a></li>
+      <li><a href="index.html#about-us">About Us</a></li>
+      <li><a href="index.html#join-us">Join Us</a></li>
+    </ul>
+    <label for="nav-bar-toggle" class="nav-bar-icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </label>
+</nav>
+<section class="painting-banner">
+    <div class="painting-banner-title"><h1>Painting</h1></div>
+</section>
+<section class="painters">
+    <div><h2>Choose one of our partner Painters:</h2></div>
+</section>
+<section class="painters-cards">
+  <div class="card-number flip-card" id="0">
+    <div class="flip-card-front">
+       <div class="partner-img-1">
+        <br><h2>Murphy's Studio</h2>
+      </div>
+      <div class="description">
+        <p>We paint all kinds of house interiors and outside walls.</p>
+      </div>
+      <div class="click-me">
+      <button class="flip-card-btn-turn-to-back" id="0">
+        <span>I want to know more!</span>
+      </button>
+      </div>
+     </div>
+    <div class="flip-card-back">
+      <div class="partner-img-1">
+        <br><h2>Murphy's Studio</h2>
+      </div>
+      <div class="description">
+        <p><i class="fa fa-phone-square"></i> 077 4465 8809 <br><br>
+          <span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> AB41 6TQ - LONDON <br><br>
+          &#x2709; murphystudio@info.com <br><br>
+          <span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> 9am to 6pm</p>
+      </div>
+      <span class="flip-card-btn-turn-to-front" id="0">X</span>
+    </div>
+  </div>
+  <div class="card-number flip-card" id="1">
+    <div class="flip-card-front">
+       <div class="partner-img-2">
+        <br><h2>Flying Brush</h2>
+      </div>
+      <div class="description">
+        <p>Outstanding house interiors come to life with our magic brushes.</p>
+      </div>
+      <div class="click-me">
+      <button class="flip-card-btn-turn-to-back" id="1">
+        <span>I want to know more!</span>
+      </button>
+      </div>
+     </div>
+    <div class="flip-card-back">
+      <div class="partner-img-2">
+        <br><h2>Flying Brush</h2>
+      </div>
+      <div class="description">
+        <p><i class="fa fa-phone-square"></i> 070 1634 1268 <br><br>
+          <span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> WR6 0BW - LONDON <br><br>
+          &#x2709; leflyingbrush@info.com <br><br>
+          <span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> 9am to 6pm</p>
+      </div>
+      <span class="flip-card-btn-turn-to-front" id="1">X</span>
+    </div>
+  </div>
+  <div class="card-number flip-card" id="2">
+    <div class="flip-card-front">
+       <div class="partner-img-3">
+        <br><h2>Pike Shop</h2>
+      </div>
+      <div class="description">
+        <p>You pick the colors, we do the painting .</p>
+      </div>
+      <div class="click-me">
+      <button class="flip-card-btn-turn-to-back" id="2">
+        <span>I want to know more!</span>
+      </button>
+      </div>
+     </div>
+    <div class="flip-card-back">
+      <div class="partner-img-3">
+        <br><h2>Pike Shop</h2>
+      </div>
+      <div class="description">
+        <p><i class="fa fa-phone-square"></i> 079 3000 2467 <br><br>
+          <span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> DT2 7EW - LONDON <br><br>
+          &#x2709; pikespike@info.com <br><br>
+          <span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> 9am to 6pm</p>
+      </div>
+      <span class="flip-card-btn-turn-to-front" id="2">X</span>
+    </div>
+  </div>
+  <div class="card-number flip-card" id="3">
+    <div class="flip-card-front">
+       <div class="partner-img-4">
+        <br><h2>Marvin Marvelous</h2>
+      </div>
+      <div class="description">
+        <p>You do the dreaming we do the painting.</p>
+      </div>
+      <div class="click-me">
+      <button class="flip-card-btn-turn-to-back" id="3">
+        <span>I want to know more!</span>
+      </button>
+      </div>
+     </div>
+    <div class="flip-card-back">
+      <div class="partner-img-4">
+        <br><h2>Marvin Marvelous</h2>
+      </div>
+      <div class="description">
+        <p><i class="fa fa-phone-square"></i> 077 3329 8827 <br><br>
+          <span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> GL7 9LB - LONDON <br><br>
+          &#x2709; marvin_hagler@info.com <br><br>
+          <span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> 9am to 6pm</p>
+      </div>
+      <span class="flip-card-btn-turn-to-front" id="3">X</span>
+    </div>
+  </div>
+  <div class="card-number flip-card" id="4">
+    <div class="flip-card-front">
+       <div class="partner-img-5">
+        <br><h2>Sassy Brushes</h2>
+      </div>
+      <div class="description">
+        <p>Be bold. Perfection is a brushstroke away!</p>
+      </div>
+      <div class="click-me">
+      <button class="flip-card-btn-turn-to-back" id="4">
+        <span>I want to know more!</span>
+      </button>
+      </div>
+     </div>
+    <div class="flip-card-back">
+      <div class="partner-img-5">
+        <br><h2>Sassy Brushes</h2>
+      </div>
+      <div class="description">
+        <p><i class="fa fa-phone-square"></i> 079 2407 5139 <br><br>
+          <span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> AB3 3SY - LONDON <br><br>
+          &#x2709; themsassybrushes@info.com <br><br>
+          <span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> 9am to 6pm</p>
+      </div>
+      <span class="flip-card-btn-turn-to-front" id="4">X</span>
+    </div>
+  </div>
+  <div class="card-number flip-card" id="5">
+    <div class="flip-card-front">
+       <div class="partner-img-6">
+        <br><h2>Godly Walls</h2>
+      </div>
+      <div class="description">
+        <p>You order we deliver. Quality products everywhere.</p>
+      </div>
+      <div class="click-me">
+      <button class="flip-card-btn-turn-to-back" id="5">
+        <span>I want to know more!</span>
+      </button>
+      </div>
+     </div>
+    <div class="flip-card-back">
+      <div class="partner-img-6">
+        <br><h2>Godly Walls</h2>
+      </div>
+      <div class="description">
+        <p><i class="fa fa-phone-square"></i> 070 4540 3622 <br><br>
+          <span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> NR11 2GB - LONDON <br><br>
+          &#x2709; godlywalls@info.com <br><br>
+          <span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> 9am to 6pm</p>
+      </div>
+      <span class="flip-card-btn-turn-to-front" id="5">X</span>
+    </div>
+  </div>
+</div>
+</section>
+<footer class="footer-container">
+    <div class="footer-links-container">
+            <div class="footer-links-1">
+              <h6>Need help?</h6>
+              <ul class="footer-links">
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Certifications</a></li>
+              </ul>
+            </div>
+            <div class="footer-links-2">
+              <h6>Legal</h6>
+              <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+              </ul>
+            </div>
+    </div>
+            <div class="footer-social-media">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+              </ul>
+            </div>
+            <hr>
+            <div class="footer-copyright">
+                <p>Copyright &copy; 2020 All Rights Reserved by FIXEE.
+                </p>
+              </div>
+</footer>
+    <script src="painting.js"></script>
 </body>
 </html>
