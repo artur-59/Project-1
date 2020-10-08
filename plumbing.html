@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="plumbing.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=David+Libre&family=Poppins:wght@200;600;400&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head>
 <body>
 <nav class="nav-bar-container">
@@ -49,85 +50,176 @@
     <div><h2>Choose one of our partner Plumbers:</h2></div>
 </section>
 <section class="plumbers-cards">
-  <div class="card-number">
-    <div class="partner-img-1">
-      <h2>Mario & Company</h2>
-    </div>
-    <div class="description">
-      <p>Professional plumbers working 24/7.</p>
-    </div>
-    <div class="click-me">
-    <button>
-      <span>I want to know more!</span>
-    </button>
-  </div>
-  </div>
-  <div class="card-number">
-    <div class="partner-img-2">
-      <h2>Plumbing Systems</h2>
-    </div>
-    <div class="description">
-      <p>We specialize in installing and maintaining water pipelines, sewage and drainage.</p>
-    </div>
-    <div class="click-me">
-      <button>
+
+  <div class="card-number flip-card" id="0">
+    <div class="flip-card-front">
+       <div class="partner-img-1">
+        <br><h2>Mario & Company</h2>
+      </div>
+      <div class="description">
+        <p>Professional plumbers working 24/7.</p>
+      </div>
+      <div class="click-me">
+      <button class="flip-card-btn-turn-to-back" id="0">
         <span>I want to know more!</span>
       </button>
+      </div>
+     </div>
+    <div class="flip-card-back">
+      <div class="partner-img-1">
+        <br><h2>Mario & Company</h2>
+      </div>
+      <div class="description">
+        <p><i class="fa fa-phone-square"></i> 077 4465 8809 <br><br>
+          <span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> AX71 6TQ - LONDON <br><br>
+          &#x2709; mario&company@info.com<br><br>
+          <span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> 24/7</p>
+      </div>
+      <span class="flip-card-btn-turn-to-front" id="0">X</span>
     </div>
   </div>
-  <div class="card-number">
-    <div class="partner-img-3">
-      <h2>Plumbum United</h2>
-    </div>
-    <div class="description">
-      <p>From pipelines repairs to bathtubs, sinks and toilets intallation.</p>
-    </div>
-    <div class="click-me">
-      <button>
+
+  <div class="card-number flip-card" id="1">
+    <div class="flip-card-front">
+       <div class="partner-img-2">
+        <br><h2>Plumbing Systems</h2>
+      </div>
+      <div class="description">
+        <p>We specialize in installing and maintaining water pipelines.</p>
+      </div>
+      <div class="click-me">
+      <button class="flip-card-btn-turn-to-back" id="1">
         <span>I want to know more!</span>
       </button>
+      </div>
+     </div>
+    <div class="flip-card-back">
+      <div class="partner-img-2">
+        <br><h2>Plumbing Systems</h2>
+      </div>
+      <div class="description">
+        <p><i class="fa fa-phone-square"></i> 077 4465 8809 <br><br>
+          <span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> VX71 6TQ - LONDON <br><br>
+          &#x2709; plumbingsystems@info.com<br><br>
+          <span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> 9am to 7pm</p>
+      </div>
+      <span class="flip-card-btn-turn-to-front" id="1">X</span>
     </div>
   </div>
-  <div class="card-number">
-    <div class="partner-img-4">
-      <h2>Luigi's</h2>
-    </div>
-    <div class="description">
-      <p>Assembly of water and gas pipelines.</p>
-    </div>
-    <div class="click-me">
-      <button>
+
+  <div class="card-number flip-card" id="2">
+    <div class="flip-card-front">
+       <div class="partner-img-3">
+        <br><h2>Plumbum United</h2>
+      </div>
+      <div class="description">
+        <p>From pipelines repairs to bathtubs, sinks and toilets intallation.</p>
+      </div>
+      <div class="click-me">
+      <button class="flip-card-btn-turn-to-back" id="2">
         <span>I want to know more!</span>
       </button>
+      </div>
+     </div>
+    <div class="flip-card-back">
+      <div class="partner-img-3">
+        <br><h2>Plumbum United</h2>
+      </div>
+      <div class="description">
+        <p><i class="fa fa-phone-square"></i> 077 4465 8809 <br><br>
+          <span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> GF71 6TQ - LONDON <br><br>
+          &#x2709; plumbumunited@info.com<br><br>
+          <span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> 9am to 6pm</p>
+      </div>
+      <span class="flip-card-btn-turn-to-front" id="2">X</span>
     </div>
   </div>
-  <div class="card-number">
-    <div class="partner-img-5">
-      <h2>Peach Plumbing</h2>
-    </div>
-    <div class="description">
-      <p>We work water and gas suply, also kitchen and bathroom equipment installation and repairs.</p>
-    </div>
-    <div class="click-me">
-      <button>
+
+  <div class="card-number flip-card" id="3">
+    <div class="flip-card-front">
+       <div class="partner-img-4">
+        <br><h2>Luigi's</h2>
+      </div>
+      <div class="description">
+        <p>Assembly of water and gas pipelines.</p>
+      </div>
+      <div class="click-me">
+      <button class="flip-card-btn-turn-to-back" id="3">
         <span>I want to know more!</span>
       </button>
+      </div>
+     </div>
+    <div class="flip-card-back">
+      <div class="partner-img-4">
+        <br><h2>Luigi's</h2>
+      </div>
+      <div class="description">
+        <p><i class="fa fa-phone-square"></i> 077 4465 8809 <br><br>
+          <span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> TG56 6TQ - LONDON <br><br>
+          &#x2709; luigis@info.com<br><br>
+          <span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> 9am to 6pm</p>
+      </div>
+      <span class="flip-card-btn-turn-to-front" id="3">X</span>
     </div>
   </div>
-  <div class="card-number">
-    <div class="partner-img-6">
-      <h2>Rusty Joe</h2>
-    </div>
-    <div class="description">
-      <p>Replacement and plumbing installations 24/7.</p>
-    </div>
-    <div class="click-me">
-      <button>
+
+  <div class="card-number flip-card" id="4">
+    <div class="flip-card-front">
+       <div class="partner-img-5">
+        <br><h2>Peach Plumbing</h2>
+      </div>
+      <div class="description">
+        <p>We work water and gas suply, also kitchen and bathroom equipment.</p>
+      </div>
+      <div class="click-me">
+      <button class="flip-card-btn-turn-to-back" id="4">
         <span>I want to know more!</span>
       </button>
-    </div>  
+      </div>
+     </div>
+    <div class="flip-card-back">
+      <div class="partner-img-5">
+        <br><h2>Peach Plumbing</h2>
+      </div>
+      <div class="description">
+        <p><i class="fa fa-phone-square"></i> 077 4465 8809 <br><br>
+          <span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> HJ65 6TQ - LONDON <br><br>
+          &#x2709; peachplumbing@info.com<br><br>
+          <span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> 9am to 10pm</p>
+      </div>
+      <span class="flip-card-btn-turn-to-front" id="4">X</span>
     </div>
-</div>
+  </div>
+
+  <div class="card-number flip-card" id="5">
+    <div class="flip-card-front">
+       <div class="partner-img-6">
+        <br><h2>Rusty Joe</h2>
+      </div>
+      <div class="description">
+        <p>Replacement and plumbing installations 24/7.</p>
+      </div>
+      <div class="click-me">
+      <button class="flip-card-btn-turn-to-back" id="5">
+        <span>I want to know more!</span>
+      </button>
+      </div>
+     </div>
+    <div class="flip-card-back">
+      <div class="partner-img-6">
+        <br><h2>Rusty Joe</h2>
+      </div>
+      <div class="description">
+        <p><i class="fa fa-phone-square"></i> 077 4465 8809 <br><br>
+          <span class="iconify" data-icon="map-postal-code-prefix" data-inline="false"></span> GF78 6TQ - LONDON <br><br>
+          &#x2709; RustyJoe@info.com<br><br>
+          <span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> 24/7</p>
+      </div>
+      <span class="flip-card-btn-turn-to-front" id="5">X</span>
+    </div>
+  </div>
+
+
 </section>
 <footer class="footer-container">
     <div class="footer-links-container">
@@ -161,6 +253,7 @@
                 </p>
               </div>
 </footer>
-    <script src="script.js"></script>
+<script src="plumbing.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
