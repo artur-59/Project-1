@@ -61,13 +61,14 @@ const carpentryArray = [
     }
 ];
 
-const buttons = document.querySelectorAll('button');
+const buttons = document.querySelectorAll('flip-card-btn-turn-to-back');
 
 
 for(i=0; i<buttons.length; i++){
     buttons[i].addEventListener("click", function(event) {
-        console.log(event.currentTarget.id);
-        const index = event.currentTarget.id;
+        console.log(event.currentTarget.className);
+        const contentBack = document.getElementsByClassName('flip-card-back')[i]
+        const index = event.currentTarget.className;
         const popup = document.createElement('div');
         popup.innerHTML = `<div class="pop-up">
             <p>
@@ -82,10 +83,21 @@ for(i=0; i<buttons.length; i++){
             <p>
                 <span><span class="iconify" data-icon="ic:baseline-schedule" data-inline="false"></span> </span>${carpentryArray[index].schedule}
             </p>
-        </div>`;
-        document.body.appendChild(popup);
-        const closeButton = document.createElement('button');
-        document.popup.appendChild(closeButton);
+        </div><span id="flip-card-btn-turn-to-front">X</span>`;
+        document.getElementsByClassName('flip-card-back').innerHTML = popup;
+        // document.getElementsByClassName('flip-card-back').appendChild(popup);
+        // const closeButton = document.createElement('button');
+        // document.popup.appendChild(closeButton);
         
         });
 }
+
+document.addEventListener('DOMContentLoaded', function(event) {
+    document.getElementById('flip-card-btn-turn-to-front').style.visibility = 'visible';
+    document.getElementById('flip-card-btn-turn-to-back').onclick = function() {
+    document.getElementById('flip-card').classList.toggle('do-flip');
+    };
+    document.getElementById('flip-card-btn-turn-to-front').onclick = function() {
+    document.getElementById('flip-card').classList.toggle('do-flip');
+    };
+  });
