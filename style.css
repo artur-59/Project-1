@@ -125,7 +125,7 @@ body {
     padding-top: 250px;
     position: relative;
     height: 350px;
-    background-image: url(/header-images/banner.jpg);
+    background-image: url(header-images/banner.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
