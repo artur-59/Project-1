@@ -128,7 +128,7 @@ body {
       text-align: center;
       text-shadow: 1px 1px 1px #474444;
       height: 300px;
-      background-image: url(/carpentry-img/wooden-floor-1853403.png);
+      background-image: url(carpentry-img/wooden-floor-1853403.png);
       background-size: cover;
       background-position: center;
   }
@@ -178,7 +178,7 @@ body {
     }
 
     .partner-img-1 {
-        background-image: url(/carpentry-img/tools-498202_640.png);
+        background-image: url(carpentry-img/tools-498202_640.png);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -198,7 +198,7 @@ body {
     }
 
     .partner-img-2 {
-        background-image: url(/carpentry-img/tools-690038_640.png);
+        background-image: url(carpentry-img/tools-690038_640.png);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -218,7 +218,7 @@ body {
     }
 
     .partner-img-3 {
-        background-image: url(/carpentry-img/workshop-984022_640.png);
+        background-image: url(carpentry-img/workshop-984022_640.png);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -238,7 +238,7 @@ body {
     }
 
     .partner-img-4 {
-        background-image: url(/carpentry-img/ax-2265541_640.png);
+        background-image: url(carpentry-img/ax-2265541_640.png);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -258,7 +258,7 @@ body {
     }
 
     .partner-img-5 {
-        background-image: url(/carpentry-img/kitchen-2400367_640.png);
+        background-image: url(carpentry-img/kitchen-2400367_640.png);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -278,7 +278,7 @@ body {
     }
 
     .partner-img-6 {
-        background-image: url(/carpentry-img/cabin-413770_640.png);
+        background-image: url(carpentry-img/cabin-413770_640.png);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -312,7 +312,7 @@ body {
     }
 
     .click-me button{
-        background-image: url(/carpentry-img/hardwood-1851071_640.png);
+        background-image: url(carpentry-img/hardwood-1851071_640.png);
         background-size: contain;
         padding: 20px 25px;
         border-radius: 5px;

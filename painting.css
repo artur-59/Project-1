@@ -129,7 +129,7 @@ body {
       text-align: center;
       text-shadow: 1px 1px 1px #474444;
       height: 300px;
-      background-image: url(/painting-img/paint-933395.png);
+      background-image: url(painting-img/paint-933395.png);
       background-size: cover;
       background-position: center center;
   }
@@ -180,7 +180,7 @@ body {
     }
 
     .partner-img-1 {
-        background-image: url(/painting-img/paint-1936787_1280.png);
+        background-image: url(painting-img/paint-1936787_1280.png);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -200,7 +200,7 @@ body {
     }
 
     .partner-img-2 {
-        background-image: url(/painting-img/paint-4191398_1280.png);
+        background-image: url(painting-img/paint-4191398_1280.png);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -220,7 +220,7 @@ body {
     }
 
     .partner-img-3 {
-        background-image: url(/painting-img/paintbrush-4577578_1280.png);
+        background-image: url(painting-img/paintbrush-4577578_1280.png);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -240,7 +240,7 @@ body {
     }
 
     .partner-img-4 {
-        background-image: url(/painting-img/brush-4955638_1920.png);
+        background-image: url(painting-img/brush-4955638_1920.png);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -260,7 +260,7 @@ body {
     }
 
     .partner-img-5 {
-        background-image: url(/painting-img/desktop-3253856_640.png);
+        background-image: url(painting-img/desktop-3253856_640.png);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -280,7 +280,7 @@ body {
     }
 
     .partner-img-6 {
-        background-image: url(/painting-img/paintbrush-4577577_1280.png);
+        background-image: url(painting-img/paintbrush-4577577_1280.png);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -314,7 +314,7 @@ body {
     }
 
     .click-me button{
-        background-image: url(/carpentry-img/hardwood-1851071_640.png);
+        background-image: url(carpentry-img/hardwood-1851071_640.png);
         background-size: contain;
         padding: 20px 25px;
         border-radius: 5px;
